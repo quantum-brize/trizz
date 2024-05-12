@@ -1,0 +1,1 @@
+{"EndUserIp":"223.228.215.88","TokenId":"4e5ce91f-297d-42e8-953a-7b077f558d0f","AdultCount":"1","ChildCount":"0","InfantCount":"0","DirectFlight":"true","OneStopFlight":"false","JourneyType":"1","PreferredAirlines":"","Segments":[{"Origin":"BOM","Destination":"BLR","FlightCabinClass":2,"PreferredDepartureTime":"2024-05-02T00:00:00","PreferredArrivalTime":"2024-05-02T00:00:00"}]}

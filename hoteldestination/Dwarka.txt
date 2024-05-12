@@ -1,0 +1,1 @@
+{"HotelSearchResult":{"ResponseStatus":3,"Error":{"ErrorCode":3,"ErrorMessage":"Invalid CityId :145006"},"TraceId":"f378a9ff-06f6-4595-87a6-a777dc1b34b2"}}

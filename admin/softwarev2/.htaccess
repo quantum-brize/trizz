@@ -1,0 +1,40 @@
+Options +FollowSymLinks
+RewriteEngine on
+ErrorDocument 403 ../ 
+ErrorDocument 404 ../ 
+ 
+
+RewriteRule ^share/(.*).html$ packagepreview.php?id=$1&n=$2&notprice=1 [L] 
+RewriteRule ^sharepackage/(.*).html$ packagepreview.php?id=$1&n=$2 [L] 
+RewriteRule ^sharepackage/(.*).html$ packagepreview.php?i=$1 [L]
+RewriteRule ^sharequotation/(.*).html$ quotationpreview.php?i=$1 [L]
+
+RewriteRule ^ASDFFJSDKFLJOASDFLJ.package$ packagepreview.php  [NC,L] 
+RewriteRule ^ASDFFJRKDMJOASDFLJ.quotation$ quotationpreview.php  [NC,L] 
+
+
+RewriteRule ^PTIYTOLLHJHJKGJHKKJ.html$ invoiceview.php  [NC,L] 
+RewriteRule ^readqr.html$ readqrpage.php  [NC,L] 
+RewriteRule ^PTIYTKKLHJXXJHKYJ.package$ packageview.php  [NC,L] 
+RewriteRule ^RKDMKKLHJXXJHKYJ.quotation$ quotationview.php  [NC,L]
+
+
+RewriteRule ^setting.html$ companysetting.php  [NC,L]
+
+RewriteRule ^display.html$ index.php  [NC,L]
+RewriteRule ^showpackage.html$ sharePackage.php  [NC,L]
+RewriteRule ^showpackagelink.html$ sharePackageLink.php  [NC,L]
+RewriteRule ^paymentdone.html$ paymentdone.php  [NC,L]
+RewriteRule ^login.html$ loginpage.php  [NC,L] 
+RewriteRule ^logout.html$ logoutpage.php  [NC,L] 
+RewriteRule ^frmaction.html$ actionpage.php  [NC,L]  
+RewriteRule ^dashboard.html$ index.php  [NC,L] 
+RewriteRule ^preview.html$ preview.php  [NC,L] 
+RewriteRule ^printinvoice.html$ printinvoice.php  [NC,L] 
+RewriteRule ^export.html$ export.php  [NC,L] 
+RewriteRule ^export-user-wise.html$ exportuserwise.php  [NC,L] 
+RewriteRule ^export-client-wise.html$ exportclientwise.php  [NC,L] 
+RewriteRule ^export-query-wise.html$ exportquerywise.php  [NC,L] 
+RewriteRule ^export-destination-wise.html$ exportdestinationwise.php  [NC,L] 
+RewriteRule ^XKDJFH19463NHY/(.*) filedocuments/$1
+ 

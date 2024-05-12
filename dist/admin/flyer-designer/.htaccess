@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+ErrorDocument 403 ../ 
+ErrorDocument 404 ../ 
+ 
+
+ 
+RewriteRule ^projects$ projects.php  [NC,L] 
+RewriteRule ^edit-project.html$ editproject.php  [NC,L] 
+RewriteRule ^action.html$ actionpage.php  [NC,L] 

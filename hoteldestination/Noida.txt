@@ -1,0 +1,1 @@
+{"HotelSearchResult":{"ResponseStatus":3,"Error":{"ErrorCode":3,"ErrorMessage":"Invalid NoOfNights in request"},"TraceId":"991ae27f-ef02-4d87-b3f6-abc92e9d82d3"}}

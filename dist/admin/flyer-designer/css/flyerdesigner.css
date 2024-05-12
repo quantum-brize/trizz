@@ -1,0 +1,251 @@
+body{margin:0px; font-family: 'Open Sans', sans-serif; font-size:13px; color:#333333; padding:0px; background-color:#ededed;}
+a{text-decoration:none !important; cursor:pointer;}
+a:hover{text-decoration:none;}
+html{width:100%; height:100%;}
+.header{width:100%; height:50px; border-bottom:1px solid #ddd; background-color:#FFFFFF; padding:5px 0px; position:fixed; left:0px; top:0px; z-index:999999999;}
+.header .brand{float:left; margin-right:20px;}
+.header .brand img { height: 40px; width: auto; margin-left: 5px; padding: 10px; }
+.header .sub { float: left; padding: 10px 10px 0px; font-size: 14px; font-weight: 600; color: #808990; }
+.header .main { float: left; padding: 10px 10px 0px; font-size: 14px; font-weight: 600; color: #1a1a1a; }
+.header .sub .fa{color:#c5ccd0; font-size:12px;}
+.header .main .fa{color:#c5ccd0; font-size:14px;}
+.header .right{float:right;}
+.header .right a{display:inline-block; margin:0px 5px; text-decoration:none; color:#333333;}
+.header .right a .fa{color:#333;}
+.left { position: fixed; left: 0px; top: 0px; width: 80px; padding: 60px 5px 0px; height: 100%; background-color: #FFFFFF; box-sizing: border-box; border-right: 1px solid #ddd; z-index:9999; }
+.left a { padding: 15px 0px; text-align: center; color: #3e3f41; font-size: 11px; font-weight: 600; margin-bottom: 5px; display: block; margin-top: 5px; border-radius: 15px; }
+.left a:hover{background-color:#f4f5f5;}
+.left a .fa{font-size:20px; margin-bottom:2px;}
+.left .active{background-color:#e8ebed;}
+.designbody{width:100%; padding-left:70px;  box-sizing:border-box; padding-bottom:200px;}
+.instagramposts{width:1080px; height:1080px; margin:auto; background-color: #FFFFFF;box-shadow: 0px 0px 3px #00000045; }
+#designarea { margin-top:160px; }
+.zoomoptionbottomouter{ position:fixed; left:0px; bottom:10px; width:100%; z-index:99999;}
+.zoomoptionbottom { width: 208px; background-color: #FFFFFF; padding: 12px; color: #333333; margin: auto; box-shadow: 0px 0px 5px #0000002e; border-radius: 10px; }
+.zoomoptionbottom .fa{font-size:20px; color:#000; cursor:pointer;}
+.zoomoptionbottom select{border:0px; background-color:#FFFFFF; width:80%; border:2px solid #fff;}
+.box{padding:0px; background-color:transparent !important;} 
+.objoption label{ font-weight: 400 !important; margin-bottom:0px !important;}
+.objoption #constantTrue{width: 30px !important; height: 16px !important;}
+.objoption #transparency{width: 100%; border: 1px solid #ddd; border-radius: 3px; text-align: center;}
+.objoption #grayscale{width: 100%; border: 1px solid #ddd; border-radius: 3px; text-align: center;}
+.objoption #iconsize{width: 100%; border: 1px solid #ddd; border-radius: 3px; text-align: center;}
+.objoption #fontscolor{width: 100%; border: 1px solid #ddd; border-radius: 3px; text-align: center;}
+
+#designarea .rec{width:100%; height:100%; border:1px solid #ddd; z-index:-1; background-color:#fff;}
+#designarea .recr{width:100%; height:100%; border:1px solid #ddd; z-index:-1; background-color:#fff; border-radius: 10px;}
+#designarea .ove{width:100%; height:100%; border:1px solid #ddd; z-index:-1; background-color:#fff; border-radius: 100%;}
+#designarea .shapebox{width:200px; height:100px;}
+#designarea .fontbox{width:200px; font-size:40px;}
+#designarea .constantTrue:hover .right-bot{display:block !important;}
+#designarea .shapebox:hover .right-bot{display:block !important;}
+#designarea .fontbox:hover .right-bot{display:block !important;}
+#designarea .fontbox:hover .rotate{display:none !important;}
+#designarea .moveimgbox{width:100%; height:100%; z-index:-1;}
+#designarea .edittextdiv{width:100%;}
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+
+.box:hover{border:1px solid #0066CC;}
+.box img{width:100%; height:100%;z-index:-1; margin:0px; position: sticky;}
+.box:hover img{z-index:-1 !important;}
+
+.objoptionouter{ position:fixed; left:0px; top:70px; width:100%; z-index:99; display:none;}
+.objoption { width: max-content; background-color: #FFFFFF; padding: 12px; color: #333333; margin: auto; box-shadow: 0px 0px 5px #0000002e; border-radius: 10px; }
+.objoption tr td{padding:0px 10px;}
+.objoption .fa{font-size:20px; color:#000; cursor:pointer;}
+.bodyareahome { padding: 70px 20px 20px 100px; width: 100%; box-sizing: border-box; }  
+.bodysections{margin-bottom:60px;}
+.bodysections .lighttext{font-size:14px; font-weight:400;    margin-bottom: 10px;}
+h1{color:#000000; font-size:30px; font-weight:800; margin-bottom:20px; margin-top:0px;}
+.listtypehome{overflow:hidden;}
+.listtypehome a{float:left; display:block;  margin-right:10px; padding:10px; border:1px solid #fff;margin-bottom: 10px;}
+.listtypehome a:hover { border: 1px solid #03acea3d; box-shadow: 2px 2px 5px #00000042; margin-bottom: 10px; border-radius: 10px; }
+
+.listtypehome a img{width:148px;}
+.listtypehome a div{font-weight:600; color:#333333; text-align:center; padding-top:10px;}
+.hometemplatelist{overflow:hidden;}
+.hometemplatelist a{display:block; float:left; margin-right:30px; border:2px solid #fff;}
+.hometemplatelist a:hover{border:2px solid #000;}
+.hometemplatelist a img{height:154px;}
+#projectoptionboxouter { width: 350px; height: 100%; background-color: #FFFFFF; position: fixed; left:80px; top: 0px; border-right: 1px solid #ddd; box-shadow: 0px 0px 10px #ddd; overflow:auto; z-index:999999; }
+#projectoptionboxouter .optionheader { padding: 20px; width: 100%; box-sizing: border-box; top: 46px; position: absolute; border-bottom: 1px solid #ddd; padding-bottom: 0px; background-color: #f9f9f9; }
+#projectoptionboxouter .optionheader h1{font-size:16px;} 
+#projectoptionboxouter .optionheader .fa-times { font-size: 22px; color: #999999; right: 20px; position: absolute; top: 20px; cursor:pointer; }
+#projectoptionboxouter .imglistlibrary{overflow:hidden; padding:20px; margin-top:85px;}
+#projectoptionboxouter .imglistlibrary .listing{width:45%; margin:5px; display:inline-block; height:70px; overflow:hidden; cursor:pointer;}
+#projectoptionboxouter .imglistlibrary .listing img{width:100%; height:auto;}
+.loadmorebtn { border: 0px; width: 50%; padding: 8px; background-color: #E9E9E9; color: #333333; margin: auto; margin-top: 20px; text-align: center; font-weight: 600; border-radius: 5px; cursor:pointer;}
+
+
+
+
+.badge-primary {
+    display: inline-block;
+    min-width: 10px;
+    padding: 6px 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #08a98f;
+    border-radius: 2px;
+} 
+.dropdown-menu a {
+    padding: 15px 0px;
+    text-align: center;
+    color: #3e3f41;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 0px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 7px 12px;
+    font-weight: 400;
+    border-radius: 0px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1473e6;
+    border-color: #1473e6;
+}
+.lead { font-size: 1.5rem; font-weight: 300; }
+.container { margin: 150px auto; max-width: 960px; }
+        body { background: #fafafa; }
+            .box {
+                position: absolute;
+                user-select: none;
+                transform: translate(-50%, -50%);
+            }
+
+            .resize-handler {
+                height: 10px;
+                width: 10px;
+                background-color: #0055ff;
+                position: absolute;
+                border-radius: 100px;
+                border: 1px solid #ffffff;
+                user-select: none;
+                display: none;
+            }
+            .resize-handler:hover {background-color: #0000cc;}
+            .resize-handler.rotate {cursor: url('https://findicons.com/files/icons/1620/crystal_project/16/rotate_ccw.png'), auto;}
+
+            :root {
+                /* id-1 */
+                --left-1: 200px;
+                --top-1: 480px;
+                --width-1: 200px;
+                --height-1: 200px;
+                --bg-1: #ffff00cc;
+                --zi-1: 1;
+
+                /* id-2 */
+                --left-2: 500px;
+                --top-2: 480px;
+                --width-2: 300px;
+                --height-2: 200px;
+                --bg-2: #0050ffcc;
+                --zi-2: 2;
+            }
+
+
+
+.pagingdiv {
+
+    margin: 10px 20px;
+
+    color: #464659;
+
+    font-size: 14px;
+
+}
+
+
+
+ 
+
+.pagingnumbers{border:0px #EAEAEA solid; border-radius: 2px; overflow:hidden; float:right;} 
+
+.pagingnumbers a {
+
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    min-width: 12px;
+
+    text-align: center;
+
+    color: #2c2c2c;
+
+    text-decoration: none;
+
+    border-right: #EAEAEA solid 0px;
+
+    font-size: 12px; 
+
+}
+
+.pagingnumbers .nextprev{line-height: 20px;} 
+
+.pagingnumbers a:hover{background-color:#EAEAEA; color:#4d709f;    border-radius: 2px; } 
+
+.pagingnumbers .active{background-color:#6990C3; color:#FFFFFF;    border-radius: 2px;} 
+
+.pagingnumbers .current{background-color:#3b5de7; color:#FFFFFF;    border-radius: 2px;} 
+
+.pagingnumbers .disabled{display: inline-block; padding:7px 8px;color: #CECECE;    border-radius: 2px;} 
+
+.pagingnumbers .current{display: inline-block; padding: 5px 12px;    border-radius: 2px;}
+
+
+.pageingouter {
+    margin-top: 1rem!important;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+}
+
+.alert {
+    padding: 8px 14px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+
+
+
+
+/*-----------------options css-----------------*/
+
+
+
+.constantTrue{height:auto !important;}
+
+.iconlibraryouter { padding-top: 105px; height: 100%; overflow: auto; }
+.iconlibrary { display: inline-block; width: 26%; margin: 15px 10px; text-align: center; }
+.iconlibrary .fa{font-size:30px; color:#333333; cursor:pointer;}
+.iconlibrary .fa:hover{color:#FF6600;}
+.icondiv {width:auto !important; height:auto !important; text-align:center;} 
+.icondiv .fa{font-size:50px;  margin:10px;}
+
+
+

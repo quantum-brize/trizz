@@ -1,0 +1,28 @@
+Options +FollowSymLinks
+RewriteEngine on
+ErrorDocument 403 ../ 
+ErrorDocument 404 ../ 
+ 
+
+
+RewriteRule ^sharepackage/(.*).html$ packagepreview.php?id=$1&n=$2 [L] 
+ 
+RewriteRule ^login.html$ clientlogin.php [L]
+RewriteRule ^logout.html$ clientlogout.php [L]
+RewriteRule ^index.html$ index.php [L] 
+RewriteRule ^action.html$ clientaction.php [L]
+RewriteRule ^profile.html$ clientprofile.php [L]
+RewriteRule ^editprofile.html$ clienteditprofile.php [L]
+RewriteRule ^my-trip-details.html$ clientmytripdetails.php [L]
+RewriteRule ^payment.html$ clientpayment.php [L]
+RewriteRule ^forgetpassword.html$ clientforgetpassword.php [L]
+RewriteRule ^chathistory.html$ clientchathistory.php [L]
+RewriteRule ^privacypolicy.html$ privacypolicy.php [L]
+
+
+
+
+
+
+
+

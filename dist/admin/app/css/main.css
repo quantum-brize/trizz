@@ -1,0 +1,87 @@
+body{background-color:#000000; color:#FFFFFF; font-size:14px; padding:0px; margin:0px; width:100%; height:100%;font-family: 'Open Sans', sans-serif;}
+#loginbg{background: rgb(0,0,0); background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(28,28,30,1) 100%);}
+input, select{-webkit-appearance:none;}
+#loginbg .watermark { position: fixed; bottom: 20px; width: 100%; left: 0px; font-size: 10px; text-align: center; text-transform: uppercase; color: #ffffff7d; }
+#loginbox{margin:auto; max-width:400px; background-color:#1c1c1e;border: 1px solid #2e2e30; margin-top:10%; padding:20px;}
+#loginbox { margin: auto; max-width: 280px; background-color: #1c1c1e; border: 1px solid #2e2e30; padding: 20px; position: fixed; left: 0px; top: 0px; bottom: 0px; right: 0px; height: min-content; border-radius: 4px; font-size: 13px; color: #ffffff8f; }
+#loginbox .textfield { width: 100%; box-sizing: border-box; padding: 10px; font-size: 16px; border: 1px solid #2e2e30; outline: 0px; margin-bottom: 15px; background-color: #171717; color: #fff; font-weight: 500;  border-radius:4px;}
+#loginbox  .lbl{margin-bottom:4px; }
+.greenbtnlogin { background-color: #368f4f; border: 0px; width: 100%; box-sizing: border-box; padding: 16px; text-align: center; font-size: 16px; font-weight: 600; color: #fff; outline: 0px; border-radius: 4px; }
+.whiteh5{margin-top: 0px; font-size: 16px; margin-bottom: 20px; color: #fff; text-align: center; padding-bottom: 12px; border-bottom: 1px solid #ffffff14; padding-top: 0px; }
+
+html{width:100%; height:100%;}
+h1, h2, h3, h4, form, img, ul{border:0px; padding:0px; margin:0px;}
+a{color:#368f4f; text-decoration:none; outline:0px;}
+.header{background-color:#131313; padding:15px 0px; position:fixed; left:0px; top:0px; position:fixed; text-align:center; width:100%; font-size:16px; font-weight:700; z-index:9;}
+.header .right { position: absolute; right: 1px; overflow: hidden; top: 6px; }
+.header .right a { color: #368f4f; padding: 5px 15px; float: right; font-size: 21px; }
+.sectionallsearch { background-color: #1c1c1e; padding: 10px 20px; box-sizing: border-box; margin-top: 15px; font-weight: 600; text-align: left; border-bottom: 1px solid #2e2e30; border-top: 1px solid #2e2e30; position: fixed; left: 0px; top: 37px; width: 100%; z-index: 9; max-height:80%; overflow:auto; }
+.sectionallsearch .fa-caret-down{ color:#868686; margin:0px 5px;}
+.sectionallsearch .fa-caret-up{ color:#868686; margin:0px 5px;}
+.sectionallsearch #filterbox{padding:20px 0px 0px; font-weight:400;}
+.sectionallsearch #filterbox a{padding: 15px 0px; display:block; box-sizing:border-box; border-bottom:1px solid #2e2e30; color:#FFFFFF; font-weight:600;}
+.sectionallsearch #filterbox .active{color:#46a056;}
+.sectionallsearch #filterbox .active .fa-check{position:absolute; right:20px;}
+#bodyarea{padding:92px 0px 86px; overflow:hidden;}
+#bodyarea .listview a{color:#FFFFFF; display:block; padding:15px 20px;border-bottom:1px solid #2e2e30; background-color:#1c1c1e;}
+#bodyarea .listview a .content{padding-left:0px; position:relative;}
+#bodyarea .listview a .leftimgicon{padding-left:65px;}
+#bodyarea .listview a .leftimgicon .userthumbleft { width: 50px; height: 50px; border: 1px solid #2e2e30; background-color: #2c2c2e; position: absolute; left: 0px; top: 6px; border-radius: 30px; text-align: center; line-height: 50px; font-size: 16px; color: #ffffffb3; }
+
+#bodyarea .listview a .followupcheckbox .userthumbleft { width: 50px; height: 50px; border: 0px solid #2e2e30; background-color:transparent; position: absolute; left: 0px; top: 6px; border-radius: 30px; text-align: center; line-height: 58px; font-size: 16px; color: #ffffffb3; }
+
+#bodyarea .listview a .followupcheckbox .userthumbleft .fa{font-size:25px;}
+#bodyarea .listview a .followupcheckbox .userthumbleft .fa-check-square{ color:#368f4f !important;}
+.qid .fa-clock-o{color:#CC3300 !important;} 
+#bodyarea .listview a .followupcheckbox .rightbox { position: absolute; right: 0px; bottom: 0px; width:22px; text-align: center; font-size:16px; }
+
+#bodyarea .listview a .content .qid{font-size:14px; font-weight:400;}
+#bodyarea .listview a .content .dateq{font-size:13px; font-weight:400; margin-top:4px; color:#ffffffb3;}
+#bodyarea .listview a .content .fa{color:#868686;}
+.badge { display: inline-block; padding: 0.25em 0.4em; font-size: 75%; font-weight: 700; line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25rem; position: absolute; right: 0px; bottom: 0px; }
+.badge-orange { background: #FF6600; color: #fff; }
+.badge-secondary { color: #fff; background-color: #6c757d; }
+.badge-success { background-color: #46cd93; }
+.badge-dark { background-color: #0f1f3e; }
+#footermenu{background-color:#131313;border-top:1px solid #2e2e30; position:fixed; left:0px; bottom:0px; width:100%; font-size:11px; font-weight:500; z-index:9;}
+#footermenu a{padding:10px 0px; display:block; text-align:center; color:#ffffffb3; padding-bottom:40px; font-weight:600;}
+#footermenu a .fa { display: block; margin-bottom: 4px; font-size: 18px; }
+#footermenu .active{ color:#368f4f;}
+#toapsearchbox{ background-color:#131313; color:#fff; height:50px; position:fixed; left:0px; top:0px; width:100%; z-index:9999; display:none;}
+#toapsearchbox #keywordfield { padding: 5px; background-color: #8b939e2e; width: 100%; box-sizing: border-box; outline: 0px; border: 0px; border-radius: 10px; height: 35px; color: #fff; font-size: 16px; padding: 18px 12px; margin-top: 8px; margin-left: 8px;  }
+#toapsearchbox .greencancelsearchbutton { color: #368f4f; padding: 5px 0px; text-align: center; display: block; font-weight: 500; font-size: 16px; margin-top: 5px; box-sizing: border-box; padding-left: 10px; }
+
+
+
+
+.demo:empty {
+    margin: auto;
+    width: 378px;
+    height: 800px;
+    margin-left: 0px;
+    background-image: radial-gradient( circle 0px at 0px 0px, #030303 99%, transparent 0 ), linear-gradient( 122deg, rgb(255 255 255 / 0%), rgb(255 255 255 / 1%) 50%, rgb(255 255 255 / 0%) 80% ), linear-gradient( #131313 10px, transparent 0 ), linear-gradient( #131313 10px, transparent 0 ), linear-gradient( #131313 10px, transparent 0 );
+    background-repeat: repeat-y;
+    background-size: 100px 100px, /* circle */ 50px 100px, /* highlight */ 150px 100px, 350px 100px, 300px 100px, 250px 100px;
+    background-position: 0 0, /* circle */ 0 0, /* highlight */ 15px 0, 15px 20px, 15px 40px, 15px 60px;margin-top: 20px; position: fixed; top: 50px;
+    animation: shine 1s infinite;
+}
+	 
+@keyframes shine {
+to {
+background-position:
+0 0,
+100% 0, /* move highlight to right */
+15px 0,
+15px 20px,
+15px 40px,
+15px 60px;
+}
+}
+
+.badge-primary {
+    background-color: #655be6;
+}
+.badge-warning {
+    background-color: #a90b0b;
+}
+.badge{width:60px;}

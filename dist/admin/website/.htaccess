@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+RewriteEngine on
+ErrorDocument 403 ../ 
+ErrorDocument 404 ../ 
+ 
+
+RewriteRule ^pages/(.*)$ pages.php?id=$1 [L]
+RewriteRule ^blog/(.*)$ blog-details.php?id=$1 [L]
+RewriteRule ^packages/(.*)$ package-details.php?id=$1 [L]
+
+
+RewriteRule ^about-destination/(.*)$ about-destination.php?id=$1 [L]
+RewriteRule ^blog$ blog.php  [NC,L]
+RewriteRule ^packages$ packages.php  [NC,L]
+RewriteRule ^contact$ contact.php  [NC,L]
+RewriteRule ^photo-gallery$ photo-gallery.php  [NC,L]
