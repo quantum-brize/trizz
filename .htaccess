@@ -46,7 +46,8 @@ RewriteRule ^hotels-enquiries$ hotel_enquiry.php  [NC,L]
 
 RewriteRule ^holidays-enquiries$ holidays_enquiry.php  [NC,L]
 
-RewriteRule ^flights$ flightpage.php  [NC,L]
+# RewriteRule ^flights$ flightpage.php  [NC,L]
+RewriteRule ^flights$ flightpage_new.php  [NC,L]
 
 RewriteRule ^flight-search$ flightsearch.php  [NC,L]
 
